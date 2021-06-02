@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Tank</OriginalElement>
+  <nodes>
+    <node x="1064.0" y="0.0">Tank.ExplosionSpecialEffects</node>
+    <node x="233.0" y="0.0">Tank.CreateTank</node>
+    <node x="285.0" y="1565.5">Tank.MyTank</node>
+    <node x="505.0" y="1589.0">Tank.CreateTank.BloodBar</node>
+    <node x="769.0" y="0.0">Tank.CreateBullet</node>
+    <node x="0.0" y="1485.0">Tank.EnemyTank</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Tank.MyTank" target="Tank.CreateTank">
+      <point x="0.0" y="-97.0" />
+      <point x="0.0" y="717.5" />
+    </edge>
+    <edge source="Tank.CreateTank.BloodBar" target="Tank.CreateTank">
+      <point x="0.0" y="-73.5" />
+      <point x="614.5" y="1460.0" />
+      <point x="486.3333333333333" y="1460.0" />
+      <point x="101.33333333333331" y="717.5" />
+    </edge>
+    <edge source="Tank.EnemyTank" target="Tank.CreateTank">
+      <point x="0.0" y="-177.5" />
+      <point x="132.5" y="1460.0" />
+      <point x="283.6666666666667" y="1460.0" />
+      <point x="-101.33333333333331" y="717.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.3811827956989247" x="643.0" y="920.0" />
+  <SelectedNodes>
+    <node>Tank.CreateTank</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>字段</Category>
+    <Category>构造函数</Category>
+    <Category>方法</Category>
+    <Category>内部类</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
